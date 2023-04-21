@@ -20,6 +20,15 @@ body {
   background-position: center;
 }
 
+/* Mis proyectos de portafolio */
+
+#Portafolio .image-top {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Contacto */
 
 #Contacto form label {
