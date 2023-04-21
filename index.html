@@ -1,13 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 6 GitHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CDN de JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <title>CV de Juan G. Vega</title>
+    <!-- Link de Font Awesome para íconos -->
+    <script src="https://kit.fontawesome.com/af595bf087.js" crossorigin="anonymous"></script>
+    <!-- Link para estilos CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
+
 <body>
-    <h1>Hola mundooo jeje</h1>
-    <h2>Vamo a darle osi</h2>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+
+            <button class="navbar-toggler"
+            data-bs-target="#navbarSupportedContent"
+            type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Mis-trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold my-5">
+                    Juan Guillermo <br>Vega Paredes
+                </h1>
+                <p class="my-5">
+                    Químico Farmacéutico de profesión con ganas de aprender otras áreas del saber.<br> Ahondando actualmente en el mundo de la programación.
+                </p>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="Acerca-de-mi" class="container text-center my-5">
+
+
+        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+
+        <p class="my-4">
+            Profesional de la salud titulado, aprendiendo nuevas áreas de desempeño en el sector de la salud, además de aprender otras áreas no relacionadas a la profesión con el fin de incorporar otro tipo de conocimientos.
+        </p>
+
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-check fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Actitudes</h3>
+                <p class="my-3">
+                    Colaborador <br> Flexible <br> Empático
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-thumbs-up fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Aptitudes</h3>
+                <p class="my-3">
+                    Resolución de problemas <br> Actitud positiva <br> Capacidad de síntesis
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-face-smile fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Intereses</h3>
+                <p class="my-3">
+                    Aprendiz en programación <br> Lectura ciencia ficción <br> Trekking, ciclismo, deporte en general!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Mis-trabajos" class="my-5 p-5 bg-dark">
+
+        <h2 class="display-4 fw-bold text-center text-light mb-3">Experiencia laboral</h2>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/Farma1.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Farmacia Privada</h5>
+                        <p class="card-text">
+                            Atención a pacientes, y venta de medicamentos a público en general. Empleo de tipo comercial, y también de salubridad en la que se vela por el orden y almacenamiento de medicamentos.
+                        </p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/farma2.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Industria Farmacéutica</h5>
+                        <p class="card-text">
+                            Preparación de medicamentos, pasando por comprimidos, cápsulas, hasta inyectables, tanto estériles como no estériles. Se vela por el cumplimiento de las buenas prácticas de manufactura (GMP).
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/Farma3.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Hospitalaria / Farmacia Asistencial</h5>
+                        <p class="card-text">
+                            Dispensación de medicamentos en el área ambulatoria y de pacientes hospitalizados. Se alimenta de medicamentos a todas las áreas del hospital, velando por un inventario acorde a todos los pacientes que son atendidos. 
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="Contacto" class="container my-5">
+
+        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+
+        <p class="text-center my-4 d-none d-md-block">Favor dejar sus datos para cualquier tipo información. Pronto nos comunicaremos contigo.</p>
+
+        <form>
+
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+
+
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="my-3 text-end">
+                <button class="btn btn-dark text-light">Enviar</button>
+            </div>
+
+        </form>
+
+    </section>
+
+
+
+    <footer class="bg-dark text-center text-light p-4">
+        <p class="mb-0">Juan Guillermo Vega, año 2023. Todos los derechos reservados.</p>
+        <i class="fa-sharp fa-solid fa-copyright fa-2x my-2"></i>
+    </footer>
+
+
 </body>
+
 </html>
